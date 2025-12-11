@@ -27,10 +27,6 @@ vote=VotingClassifier(estimators=[
      ("n",e),
      ("m",f),
      ("o",g)
-
-
-
-
 ],
 voting="hard"
 
@@ -41,12 +37,3 @@ rr=vote.predict(x2)
 print("Accuracy:",accuracy_score(y2,rr))
 
 print("confusion matrix=",confusion_matrix(y2,rr))
-
-
-
-
-
-
-
-
-
